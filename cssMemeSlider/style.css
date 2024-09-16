@@ -39,7 +39,7 @@ body {
   display: grid;
   width: 80%;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 26rem 1fr;
+  grid-template-rows: 20rem 1fr;
   row-gap: 0.5rem;
   overflow: hidden;
   background-color: white;
