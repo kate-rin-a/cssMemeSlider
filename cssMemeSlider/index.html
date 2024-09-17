@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Mem-slider</title>
+</head>
+<body>
+  <main class="main">
+    <div class="main__wrapper">
+      <form class="main__slider slider">
+        <input class="slider__control" type="radio" name="slider-control" id="slide--1" checked>
+        <input class="slider__control" type="radio" name="slider-control" id="slide--2">
+        <input class="slider__control" type="radio" name="slider-control" id="slide--3">
+        <input class="slider__control" type="radio" name="slider-control" id="slide--4">
+        
+        <div class="slider__list slides">
+          <div class="slide">
+            <img src="./img/relaxing-cat.jpg" alt="Relaxing cat">
+          </div>
+          <div class="slide">
+            <img src="./img/curious-cat.jpg" alt="Curious cat">
+          </div>
+          <div class="slide">
+            <img src="./img/cat-in-sunglasses.jpg" alt="Cat in cat-in-sunglasses">
+          </div>
+          <div class="slide">
+            <img src="./img/crying-cat.jpg" alt="Crying cat">
+          </div>
+        </div>
+        <div class="slider__text texts">
+          <p class="texts__item text--1">Когда узнал, что на 3 этап shelter в запасе целый месяц</p>
+          <p class="texts__item text--2">Спустя 2 недели решил прочитать тз</p>
+          <p class="texts__item text--3">Нет уж, мы зашли слишком далеко</p>
+          <p class="texts__item text--4">/a few minutes later/...а может быть и не очень...</p>
+        </div>
+        <div class="slider__nav">
+          <label class="slider__label" for="slide--1"><div class="slider__item slider__item--1"></div></label>
+          <label class="slider__label" for="slide--2"><div class="slider__item slider__item--2"></div></label>
+          <label class="slider__label" for="slide--3"><div class="slider__item slider__item--3"></div></label>
+          <label class="slider__label" for="slide--4"><div class="slider__item slider__item--4"></div></label>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
